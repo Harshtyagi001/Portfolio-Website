@@ -1,0 +1,73 @@
+.achievements-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 3rem;
+
+  .achievements{
+    background: var(--color-bg-variant);
+    border-radius: 0 0 2rem 2rem;
+    border:0.5px solid var(--color-primary);
+    height: fit-content;
+    transition: var(--transition);
+    // padding: 3rem;
+    
+   .heading{
+     background-color: var(--color-primary);
+     padding: 2rem;
+     border-radius: 0 0 2rem 2rem;
+     box-shadow: 0 2rem 1rem rgba(0,0,0,0.1);
+
+     h3{
+      color: var(--color-bg);
+      font-size: 1rem;
+      text-align: center;
+     }
+   }
+   
+    .list{
+      padding: 2rem;
+
+      li{
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 0.8rem;
+
+        .list-icon{
+          color:var(--color-primary);
+          margin-top: 2px;
+        }
+
+        p{
+          font-size: 0.9rem;
+        }
+      }
+    } 
+
+    &:hover{
+      background: transparent;
+      border-color: var(--color-primary-variant);
+      cursor: default;
+    }
+  }
+}
+
+
+@media screen and (max-width:1024px){
+  .achievements-container{
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+    .achievements{
+      height: auto;
+    }
+  }
+}
+
+@media screen and (max-width:600px){
+
+  .achievements-container{
+    grid-template-columns: 1fr;
+    width: 60%;
+    gap: 1.5rem;
+  }
+}

@@ -1,0 +1,66 @@
+
+.experience-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.experience-container>div{
+  background-color: var(--color-bg-variant);
+  padding: 2.5rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+
+  &:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+  }
+  h3{
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+  }
+  
+  .experience-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+
+    .skills{
+      display: flex;
+      gap: 1rem;
+
+      .icon{
+        color: var(--color-primary);
+      }
+    }
+  }
+
+}
+
+@media screen and  (max-width:1024px){
+  .experience-container{
+    grid-template-columns: 1fr;
+  }
+  
+  .experience-container>div{
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+
+    .experience-content{
+      padding: 1rem;
+    }
+  }
+}
+
+@media screen and  (max-width:600px){
+  .experience-container{
+    gap: 1rem;
+  }
+
+  .experience-container>div{
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+}
