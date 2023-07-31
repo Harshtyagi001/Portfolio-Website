@@ -26,16 +26,17 @@ const About = () => {
         <article >
         <FiUsers className='ab out_icon'/>
        <h5>Clients</h5>
-       <small>50+</small>
+       <small>0</small>
         </article>
         <article >
         <VscFolderLibrary className='ab out_icon'/>
        <h5>Projects</h5>
-       <small>5+</small>
+       <small>15+</small>
         </article>
         </div>
-          <p>fuwfdfbverbgurbguerhg  uwehweh uefhew ewhf iewij9 9erut94u erg9e t48349r u84u rut943t9 9t439ewuofhurhrhvrrfi
-          fuwfdfbverbgurbguerhg  uwehweh uefhew ewhf iewij9 9erut94u erg9e t48349r u84u rut943t9 9t439</p>
+          <p>Welcome to my portfolio! <br></br>
+
+            I'm a Full Stack Developer with a passion for crafting seamless digital experiences. Proficient in DevOps, I love bridging the gap between development and operations. Let's build something amazing together!</p>
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
         </div>

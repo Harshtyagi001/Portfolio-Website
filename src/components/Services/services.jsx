@@ -10,101 +10,73 @@ export const Services = () => {
       <div className='container achievements-container'>
         <div className='achievements'>
           <div className='heading'>
-            <h3>Heading 1</h3>
+            <h3>Academic Achievements and Competitive Programming</h3>
           </div>
           <ul className='list'>
             <li>
               <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
+              <p>AIR 13 in DBMS Exam by IIT Kharagpur - Featured on NPTEL Website.</p>
             </li>
             <li>
               <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
+              <p>Global #231 in CodeChef October Long (25k+ participants).</p>
             </li>
             <li>
               <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
+              <p>CodeForces Specialist, 3-star on CodeChef, top 25% on LeetCode.
+</p>
             </li>
             <li>
               <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
+              <p>750+ questions solved on LeetCode, GeeksForGeeks, CodeStudio, CodeChef, Codeforces.</p>
             </li>
             <li>
               <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
-            </li>
-            <li>
-              <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
+              <p>Global #340 in CodeChef Starters by Chingari (17k+ participants).
+</p>
             </li>
           </ul>
         </div>
 
         <div className='achievements'>
           <div className='heading'>
-            <h3>Heading 2</h3>
+            <h3>Web Developer Intern at Code Clause</h3>
           </div>
           <ul className='list'>
           <li>
               <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
+              <p>Distinguished yourself as an outstanding Web Developer Intern at Code Clause, delivering a series of impressive web development projects.</p>
             </li>
             <li>
               <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
+              <p>Exhibited a strong sense of responsibility, consistently meeting deadlines and ensuring timely project completions with high-quality deliverables.</p>
             </li>
             <li>
               <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
+              <p>Created a striking Personal Portfolio, a feature-rich E-commerce platform, an engaging Blog application, and a practical Weather App.</p>
             </li>
-            <li>
-              <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
-            </li>
-            <li>
-              <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
-            </li>
-            <li>
-              <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
-            </li>
-            <li>
-              <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
-            </li>
+            
           </ul>
         </div>
 
         <div className='achievements'>
           <div className='heading'>
-            <h3>Heading 3</h3>
+            <h3>Lead Web Developer and Event Management Head</h3>
           </div>
           <ul className='list'>
             <li>
               <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
+              <p>Created branded, user-friendly event websites.</p>
             </li>
             <li>
               <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
+              <p>Efficiently coordinated tasks and provided technical guidance</p>
             </li>
             <li>
               <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
+              <p>Led 2 successful events; handled planning, budget, marketing, and evaluations.</p>
             </li>
-            <li>
-              <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
-            </li>
-            <li>
-              <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
-            </li>
-            <li>
-              <BsFillCheckCircleFill className='list-icon'/>
-              <p>abracadabra gili gilgi huuuu...</p>
-            </li>
+          
           </ul>
         </div>
         

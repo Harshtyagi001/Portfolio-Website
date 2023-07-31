@@ -9,14 +9,14 @@ export const Experience = () => {
       <h2>My Experience</h2>
       <div className='experience-container'>
       <div className='frontend'>
-       <h3>Frontend Development</h3>
+       <h3>Web Development</h3>
 
        <div className='experience-content'>
       <div className='skills'>
         
         <BsFillCheckCircleFill className='icon'/>
         <div>
-        <h4>HTML</h4>
+        <h4>HTML5</h4>
         <small className='text-light'>Experienced</small>
         </div>
       </div>
@@ -37,7 +37,7 @@ export const Experience = () => {
       <div className='skills'>
         <BsFillCheckCircleFill className='icon'/>
         <div>
-        <h4>React</h4>
+        <h4>ReactJS</h4>
         <small className='text-light'>Experienced</small>
         </div>
       </div>
@@ -45,23 +45,23 @@ export const Experience = () => {
         <BsFillCheckCircleFill className='icon'/>
         <div>
         <h4>Tailwind CSS</h4>
+        <small className='text-light'>Experienced</small>
+        </div>
+      </div>
+      <div className='skills'>
+        <BsFillCheckCircleFill className='icon'/>
+        <div>
+        <h4>NextJS</h4>
         <small className='text-light'>Intermediate</small>
         </div>
       </div>
       <div className='skills'>
         <BsFillCheckCircleFill className='icon'/>
         <div>
-        <h4>Bootstrap</h4>
-        <small className='text-light'>Intermediate</small>
+        <h4>MongoDB</h4>
+        <small className='text-light'>Experiencd</small>
         </div>
       </div>
-      
-       </div>
-      </div>
-      
-      <div className='backend'>
-      <h3>Backend Development</h3>
-      <div className='experience-content'>
       <div className='skills'>
         <BsFillCheckCircleFill className='icon'/>
         <div>
@@ -69,31 +69,65 @@ export const Experience = () => {
         <small className='text-light'>Experienced</small>
         </div>
       </div>
+       </div>
+      </div>
+      
+      <div className='backend'>
+      <h3>Devops</h3>
+      <div className='experience-content'>
       <div className='skills'>
         <BsFillCheckCircleFill className='icon'/>
         <div>
-        <h4>ExpressJs</h4>
-        <small className='text-light'>Experienced</small>
+        <h4>Docker</h4>
+        <small className='text-light'>Intermediate</small>
         </div>
       </div>
       <div className='skills'>
         <BsFillCheckCircleFill className='icon'/>
         <div>
-        <h4>MySql</h4>
-        <small className='text-light'>Experienced</small>
+        <h4>Kubernates</h4>
+        <small className='text-light'>Intermediate</small>
         </div>
       </div>
       <div className='skills'>
         <BsFillCheckCircleFill className='icon'/>
         <div>
-        <h4>MongoDB</h4>
+        <h4>Ansible</h4>
+        <small className='text-light'>Intermediate</small>
+        </div>
+      </div>
+      <div className='skills'>
+        <BsFillCheckCircleFill className='icon'/>
+        <div>
+        <h4>AWS</h4>
         <small className='text-light'>Intermediate</small>
       </div>
       </div>
       <div className='skills'>
         <BsFillCheckCircleFill className='icon'/>
         <div>
-        <h4>Python</h4>
+        <h4>Jenkins</h4>
+        <small className='text-light'>Intermediate</small>
+        </div>
+      </div>
+      <div className='skills'>
+        <BsFillCheckCircleFill className='icon'/>
+        <div>
+        <h4>Unix Scripting</h4>
+        <small className='text-light'>Intermediate</small>
+        </div>
+      </div>
+      <div className='skills'>
+        <BsFillCheckCircleFill className='icon'/>
+        <div>
+        <h4>Linux OS</h4>
+        <small className='text-light'>Intermediate</small>
+        </div>
+      </div>
+      <div className='skills'>
+        <BsFillCheckCircleFill className='icon'/>
+        <div>
+        <h4>Promethsesus</h4>
         <small className='text-light'>Intermediate</small>
         </div>
       </div>
