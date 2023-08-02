@@ -36,7 +36,8 @@ const About = () => {
         </div>
           <p>Welcome to my portfolio! <br></br>
 
-            I'm a Full Stack Developer with a passion for crafting seamless digital experiences. Proficient in DevOps, I love bridging the gap between development and operations. Let's build something amazing together!</p>
+            I'm a Full Stack Developer with a passion for crafting seamless digital experiences. Proficient in DevOps , I love bridging the gap between development and operations. Let's build something amazing together!
+            </p>
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
         </div>
